@@ -36,7 +36,7 @@ kotlin {
     
     jvm("desktop")
     
-    listOf(
+    """listOf(
         iosX64(),
         iosArm64(),
         iosSimulatorArm64()
@@ -45,7 +45,7 @@ kotlin {
             baseName = "ComposeApp"
             isStatic = true
         }
-    }
+    }"""
     
     sourceSets {
         val desktopMain by getting
